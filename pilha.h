@@ -5,7 +5,7 @@ typedef struct {
 	int disco;//variavel  que recebe o valor doo disco
 }ItemPilha;
 
-typedef struct Celula *Apontador;//tipo apontado que recebe o endereço do topo e da base
+typedef struct Celula *Apontador;//tipo apontado que recebe o endereÃ§o do topo e da base
 
 typedef struct Celula{//estrutura que cotrola a cada celula da pilha
 	ItemPilha Pitem;
@@ -17,15 +17,15 @@ typedef struct {
 	int tamanho;
 }ControlePilha;
 
-void CriaPilhaVazia(ControlePilha *Cpilha);//função que cria pilha vazia recebendo a variavel pilha
+void CriaPilhaVazia(ControlePilha *Cpilha);//funÃ§Ã£o que cria pilha vazia recebendo a variavel pilha
 
-int PilhaEstaVazia(ControlePilha Cpilha);//função que verifica se apilha esta vazia
+int PilhaEstaVazia(ControlePilha Cpilha);//funÃ§Ã£o que verifica se apilha esta vazia
 
-int InsereNaPilha(ControlePilha *Cpilha, ItemPilha x);//função insere na pilha usando as variaveis do tipo cpilha e o item disco a ser inserido
+int InsereNaPilha(ControlePilha *Cpilha, ItemPilha x);//funÃ§Ã£o insere na pilha usando as variaveis do tipo cpilha e o item disco a ser inserido
 
-int PilhaEstaCheia(ControlePilha Cpilha);//fução que verifica se apilha esta cheia
+int PilhaEstaCheia(ControlePilha Cpilha);//fuÃ§Ã£o que verifica se apilha esta cheia
 
-int RetiraDaPilha(ControlePilha *Cpilha);//função que remove o topo da pilha
+int RetiraDaPilha(ControlePilha *Cpilha);//funÃ§Ã£o que remove o topo da pilha
 
-void ImprimePilha(ControlePilha Cpilha1,ControlePilha Cpilha2,ControlePilha Cpilha3);//imprimindo as 3 pilhas juntas
+void ImprimePilha(ControlePilha Cpilha1,ControlePilha Cpilha2,ControlePilha Cpilha3);//imprimindo  3 pilhas juntas
 
