@@ -1,4 +1,4 @@
-# torre_hanoi
+# torre de hanoi
 torre de hanoi feita em C
 --autor: leone duarte de oliveira
 --leone-duarte@outlook.com
